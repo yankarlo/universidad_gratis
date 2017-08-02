@@ -1,0 +1,23 @@
+body { 
+	padding-top: 70px; 
+	    padding-bottom: 20px;
+}
+.navbar-default .navbar-text {
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default{
+	background-color:#337ab7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:white;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: gray;
+}
