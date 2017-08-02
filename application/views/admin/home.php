@@ -15,7 +15,7 @@
 	</div>
 	<br>
 	<div class="col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
-		<table class="table responsive dt-center" id="table-electives" width="100%">
+		<table class="table responsive " id="table-electives" width="100%">
 			<thead>
 				<tr>
 					<th>
@@ -53,7 +53,7 @@
 </div>
 
 
-<div class="modal fade col-xs-12 col-sm-12 col-md-12" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade col-xs-10 col-sm-10 col-md-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   	<div class="modal-dialog" role="document">
     	<div class="modal-content">
 	    	<form id="form" action="" method="post" role="form" >
@@ -72,11 +72,22 @@
 						<div class="form-group">
 							<input type="text" name="teacher_elective" id="teacher_elective" pattern=".{3,}" title="<?=lang('min_character')?>" tabindex="2" required class="form-control" placeholder="<?= lang('teacher')?>">
 						</div>
+
 						<div class="form-group">
 							<input type="number"  name="quota_elective" id="quota_elective"  tabindex="2"  class="form-control" placeholder="<?= lang('quotes')?>" >
 							<input type="hidden" id="used_elective" name="used_elective">
 							<input type="hidden" id="id_elective" name="id_elective">
 						</div>
+						<div class="form-group">			
+																				
+							<select class="form-control " name ="state" id="state" >
+								<option selected="" disabled=""><?= lang('state')?></option>
+							  	<option value="1"><?= lang('active')?></option>
+							  	<option value="0"><?= lang('inactive')?></option>
+							</select>
+
+						</div>
+						
 					
 	      		</div>
 	      		<div class="modal-footer">

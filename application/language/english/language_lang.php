@@ -35,4 +35,5 @@ $lang['free'] = 'Free';
 $lang['add'] = 'Add';
 $lang['delete'] = 'Delete';
 $lang['state'] = 'State';
-
+$lang['active'] = 'Active';
+$lang['inactive'] = 'Inactive';
